@@ -1,17 +1,25 @@
 # belentani-java-platform
 
-Belentani Platform — enterprise-grade Java backend with JPA entities, security layers, and microservice architecture blueprint
+Esqueleto de backend Java: entidades JPA, capas de seguridad y plano de microservicios.
 
-## Stack
+## Que es
 
-- Primary language: Java
+Un **plano de arquitectura**, no un servicio en produccion. Define como se organizaria un
+backend empresarial en Java: modelo de datos con JPA, separacion de capas de seguridad y una
+propuesta de division en microservicios.
 
-## Getting started
+## Estado real
+
+El repositorio es pequeno (~15 KB) y contiene `pom.xml` mas el arbol `src`. Es un punto de
+partida para construir encima, y asi conviene tratarlo.
+
+## Arranque
 
 ```bash
-git clone https://github.com/belentani7/belentani-java-platform.git
+mvn clean install
+mvn spring-boot:run
 ```
 
----
+## Licencia
 
-License: not specified
+Sin licencia declarada.
